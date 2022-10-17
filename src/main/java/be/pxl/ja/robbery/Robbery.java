@@ -1,6 +1,8 @@
 package be.pxl.ja.robbery;
 
 import be.pxl.ja.knapsack.Knapsack;
+import be.pxl.ja.knapsack.KnapsackUtil;
+import be.pxl.ja.knapsack.Pool;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +12,7 @@ public class Robbery {
         List<String> woorden = new ArrayList<>();
         Knapsack<Product> knapsack = new Knapsack<>(35);
 
-        Shop shop = new Shop();
+        Pool<Product> shop = new Pool<>();
         shop.add(new Product("stereo", 3000, 30));
         shop.add(new Product("laptop", 2000, 20));
         shop.add(new Product("guitar", 1500, 15));

@@ -53,7 +53,7 @@ Deze klasse is reeds gegeven en compleet.
 ### KnapsackUtil.java
 Deze klasse staat in voor het greedy algoritme.  
 De klasse bevat 1 public static methode fill met een knapsack en een Shop inventaris als argument.  
-In de fill-methode worden eerst alle producten uit de shop gesorteerd (gebruik hiervoor een methode uit de klasse Collections!).   
+In de fill-methode worden eerst alle producten uit de pool gesorteerd (gebruik hiervoor een methode uit de klasse Collections!).   
 Vervolgens probeer je deze gesorteerde producten 1 voor 1 toe te voegen aan de Knapsack.
 
 ### Robbery.java (main)
@@ -65,7 +65,7 @@ Cannot add product [laptop]. Maximum capacity reached.
 List of products:
 Product{name='stereo', weight=30.0, price=3000.0}
 ```
-Voeg ook eens extra producten toe in de shop en/of pas de capaciteit van de Knapsack eens aan.
+Voeg ook eens extra producten toe in de pool en/of pas de capaciteit van de Knapsack eens aan.
 
 ### EXTRA: KnapsackUtilTest.java
 Voorzie unittesten voor de fill methode.  

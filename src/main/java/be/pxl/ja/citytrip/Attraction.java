@@ -1,6 +1,8 @@
 package be.pxl.ja.citytrip;
 
-public class Attraction implements Comparable<Attraction> {
+import be.pxl.ja.knapsack.KnapsackItem;
+
+public class Attraction implements Comparable<Attraction>, KnapsackItem {
     private String name;
     private double time;
     private int rating;
@@ -10,6 +12,7 @@ public class Attraction implements Comparable<Attraction> {
         this.time = time;
         this.rating = rating;
     }
+
 
     public String getName() {
         return name;
@@ -22,6 +25,12 @@ public class Attraction implements Comparable<Attraction> {
     public double getTime() {
         return time;
     }
+
+    @Override
+    public double getWeight() {
+        return time;
+    }
+
 
     public void setTime(double time) {
         this.time = time;
