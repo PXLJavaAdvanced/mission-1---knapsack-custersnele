@@ -5,7 +5,7 @@ import java.util.List;
 
 public class LondonAttractions {
 
-    List<Attraction> items = new ArrayList<>();
+    /*List<Attraction> items = new ArrayList<>();
 
     public void add(Attraction item) {
         items.add(item);
@@ -13,5 +13,5 @@ public class LondonAttractions {
 
     public List<Attraction> getItems() {
         return items;
-    }
+    }*/
 }
