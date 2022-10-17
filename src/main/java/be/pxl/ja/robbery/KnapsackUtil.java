@@ -1,5 +1,8 @@
 package be.pxl.ja.robbery;
 
+import be.pxl.ja.knapsack.Knapsack;
+import be.pxl.ja.knapsack.KnapsackFullException;
+
 import java.util.Collections;
 import java.util.List;
 

@@ -1,5 +1,7 @@
 package be.pxl.ja.robbery;
 
+import be.pxl.ja.knapsack.Knapsack;
+import be.pxl.ja.knapsack.KnapsackFullException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -11,7 +13,7 @@ public class KnapsackTest {
     private Knapsack knapsackWithProducts;
 
     @BeforeEach
-    public void init() throws KnapsackFullException{
+    public void init() throws KnapsackFullException {
         knapsackWithProducts = new Knapsack(35);
         knapsackWithProducts.add(new Product("p1", 12.5, 8.5));
         knapsackWithProducts.add(new Product("p2", 8.5, 5.5));
